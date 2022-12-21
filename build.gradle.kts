@@ -23,6 +23,8 @@ kotlin {
 
 dependencies {
     //React, React DOM + Wrappers (chapter 3)
+    // Kotlin React Emotion (CSS) (chapter 3)
+    implementation("org.jetbrains.kotlin-wrappers:kotlin-emotion")
     implementation(enforcedPlatform("org.jetbrains.kotlin-wrappers:kotlin-wrappers-bom:1.0.0-pre.354"))
     implementation("org.jetbrains.kotlin-wrappers:kotlin-react")
     implementation("org.jetbrains.kotlin-wrappers:kotlin-react-dom")
